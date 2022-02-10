@@ -1,13 +1,10 @@
 import React from 'react';
-import { Jumbotron } from 'react-bootstrap';
+import JumboHead from './elements/JumboHead';
 
 function About() {
   return (
       <>
-        <Jumbotron>
-            <h2>About</h2>
-            <span>This is about me, Zian Choudhury!</span>
-        </Jumbotron>
+        <JumboHead head='About' subtitle='This is about me, Zian Choudhury!'/>
       </>
   );
 }

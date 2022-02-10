@@ -18,7 +18,7 @@ import About from './About'
 import NotFound from "./NotFound";
 
 function App() {
-  let [searchString, setSearchString] = useState(0);
+  let [searchString, setSearchString] = useState("");
   const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
