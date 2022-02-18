@@ -63,7 +63,7 @@ function App() {
               <Route path="/" element={<Restaurants />} />
               <Route path="/about" element={<About />} />
               <Route path="/Restaurants" element={<Restaurants />} />
-              <Route path="/Restaurants/:id" element={<Restaurant />} />
+              <Route path="/Restaurant/:id" element={<Restaurant />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Col>

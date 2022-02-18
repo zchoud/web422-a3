@@ -1,0 +1,11 @@
+div.row {
+    text-align: left;
+}
+
+.row .col {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+}
