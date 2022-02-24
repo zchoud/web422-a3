@@ -1,10 +1,10 @@
 import React from "react";
-import { Card, Col } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 function EmptySet() {
   return (
     <Card style={{ backgroundColor: "#F0F0F0", width: "full" }}>
-      <Card.Body>No restaurants to show...</Card.Body>
+      <Card.Body>No restaurant(s) to show...</Card.Body>
     </Card>
   );
 }

@@ -1,0 +1,29 @@
+.reviewSet {
+    margin-top: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.reviewSet h3 {
+    padding-top: 10px;
+    padding-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.review {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.reviewSet .container {
+    background-color: white;
+    width: 95%;
+}
+
+.col .details {
+    text-align: center;
+}

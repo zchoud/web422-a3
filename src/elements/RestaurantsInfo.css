@@ -1,3 +1,7 @@
 div.res-card {
     text-align: center;
 }
+
+.res-card .card:hover {
+    background-color: whitesmoke;
+}
